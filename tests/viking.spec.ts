@@ -1,23 +1,23 @@
-import Saxon from "../src/saxon";
-import Soldier from "../src/soldier";
-import Viking from "../src/viking";
+// import Saxon from "../src/saxon";
+// import Soldier from "../src/soldier";
+// import Viking from "../src/viking";
 
 
-  describe("Viking", function () {
-    let viking:Viking;
-    let name     = "Harald";
-    let strength = 150;
-    let health   = 300;
+  // describe("Viking", function () {
+  //   let viking:Viking;
+  //   let name     = "Harald";
+  //   let strength = 150;
+  //   let health   = 300;
 
-    beforeEach (function () {
-      viking = new Viking(name, health, strength);
-    });
+  //   beforeEach (function () {
+  //     viking = new Viking(name, health, strength);
+  //   });
 
-    test("should inherit from Soldier", function () {
-      expect(viking instanceof Soldier).toEqual(true);
-    });
+  //   test("should inherit from Soldier", function () {
+  //     expect(viking instanceof Soldier).toEqual(true);
+  //   });
 
-    describe("constructor function", function () {
+    // describe("constructor function", function () {
       // test("should receive 3 arguments (name, health & strength)", function () {
       //   expect(Viking.length).toEqual(3);
       // });
@@ -33,9 +33,9 @@ import Viking from "../src/viking";
       // test("should receive the strength property as its 3rd argument", function () {
       //   expect(viking.strength).toEqual(strength);
       // });
-    });
+    // });
 
-    describe("attack() method", function () {
+    // describe("attack() method", function () {
       // test("should be a function", function () {
       //   expect(typeof(viking.attack)).toBe("function");
       // });
@@ -49,7 +49,7 @@ import Viking from "../src/viking";
       // });
     });
 
-    describe("receiveDamage() method", function () {
+    // describe("receiveDamage() method", function () {
       // test("should be a function", function () {
       //   expect(typeof(viking.receiveDamage)).toBe("function");
       // });
@@ -71,9 +71,9 @@ import Viking from "../src/viking";
       // test("should return \"NAME has died in act of combat\", if the Viking dies", function () {
       //   expect(viking.receiveDamage(health)).toEqual(name + " has died in act of combat");
       // });
-    });
+    // });
 
-    describe("battleCry() method", function () {
+    // describe("battleCry() method", function () {
       // test("should be a function", function () {
       //   expect(typeof(viking.battleCry)).toBe("function");
       // });
@@ -85,5 +85,5 @@ import Viking from "../src/viking";
       // test("should return \"Odin Owns You All!\"", function () {
       //   expect(viking.battleCry()).toEqual("Odin Owns You All!");
       // });
-    });
-  });
+    // });
+  // });
